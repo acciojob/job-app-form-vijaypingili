@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+body{
+    background-color: aliceblue;
+}
+
+form {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px;
+}
+
+label {
+    display: block;
+    margin: 8px auto;
+}
+
+input, select,button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
